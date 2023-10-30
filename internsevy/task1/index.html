@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="htps://formspree.io/f/mwkdyava" method="POST">
+      <h1>Contact form</h1>
+      <input
+        type="text"
+        name="first"
+        placeholder="firstname"
+        autocomplete="off"
+        required
+      />
+      <input
+        type="text"
+        name="last"
+        placeholder="lastname"
+        autocomplete="off"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter ur email"
+        autocomplete="off"
+        required
+      />
+      <textarea
+        name="message"
+        cols="60"
+        rows="5"
+        placeholder="enter the text"
+        autocomplete="off"
+        required
+      ></textarea>
+      <button type="submit">Send message</button>
+    </form>
+  </body>
+</html>
